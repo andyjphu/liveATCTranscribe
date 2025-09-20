@@ -1,0 +1,18 @@
+# Fast ATC Transcriber Requirements
+# Using faster-whisper with ATC-fine-tuned models
+
+# Core audio processing
+pyaudio==0.2.11
+wave==0.0.2
+
+# Faster Whisper for ATC transcription
+faster-whisper>=0.10.0
+ffmpeg-python>=0.2.0
+
+# API and utilities
+requests==2.31.0
+python-dotenv==1.0.0
+numpy>=1.24.0
+
+# Optional: for audio processing
+scipy>=1.11.0
