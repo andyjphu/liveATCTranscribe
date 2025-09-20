@@ -1,0 +1,12 @@
+# Cerebras API Configuration
+# Get your API key from: https://cerebras.ai/
+CEREBRAS_API_KEY=your_cerebras_api_key_here
+
+# Whisper model size (optional, defaults to 'tiny' for speed)
+# Options: tiny (fastest), base (balanced), small (most accurate but slowest)
+WHISPER_MODEL=tiny
+
+# Optional: Adjust audio settings
+# CHUNK_SIZE=1024
+# SAMPLE_RATE=16000
+# RECORD_SECONDS=3
